@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( ! defined( 'CODEX_CONNECT_UPDATE_URL' ) ) {
-	define( 'CODEX_CONNECT_UPDATE_URL', 'https://raw.githubusercontent.com/hallelujah097hallelujah-design/wp-codex-rewrite/main/wordpress-plugin/update.json' );
+	define( 'CODEX_CONNECT_UPDATE_URL', 'https://raw.githubusercontent.com/hallelujah097hallelujah-design/codex-wp-template/main/wordpress-plugin/update.json' );
 }
 
 /** The update file, fetched at most every 6 hours. Returns null when it cannot be read. */
@@ -45,7 +45,7 @@ add_filter(
 			'slug'         => 'codex-connect',
 			'plugin'       => $file,
 			'new_version'  => $release ? $release['version'] : CODEX_CONNECT_VERSION,
-			'url'          => 'https://github.com/hallelujah097hallelujah-design/wp-codex-rewrite',
+			'url'          => 'https://github.com/hallelujah097hallelujah-design/codex-wp-template',
 			'package'      => $release ? $release['package'] : '',
 			'requires'     => $release['requires'] ?? '',
 			'tested'       => $release['tested'] ?? '',

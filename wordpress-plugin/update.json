@@ -1,8 +1,8 @@
 {
-  "version": "0.4.0",
-  "package": "https://raw.githubusercontent.com/hallelujah097hallelujah-design/wp-codex-rewrite/main/wordpress-plugin/codex-connect.zip",
+  "version": "0.4.1",
+  "package": "https://raw.githubusercontent.com/hallelujah097hallelujah-design/codex-wp-template/main/wordpress-plugin/codex-connect.zip",
   "requires": "5.6",
   "tested": "7.1",
   "requires_php": "7.4",
-  "changelog": "0.4.0：自動更新、内部リンク用の記事一覧、リライト前後の比較表示、予約反映、記事の点検（画像の説明文・リンク切れ）、ダッシュボードの「Codexの今週の作業」を追加しました。"
+  "changelog": "0.4.1：更新の配布元を公開リポジトリ codex-wp-template に変更しました。\n0.4.0：自動更新、内部リンク用の記事一覧、リライト前後の比較表示、予約反映、記事の点検（画像の説明文・リンク切れ）、ダッシュボードの「Codexの今週の作業」を追加しました。"
 }

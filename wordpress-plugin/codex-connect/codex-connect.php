@@ -2,19 +2,19 @@
 /**
  * Plugin Name: Codex接続
  * Description: Codex（ChatGPT）から記事のリライトを行うための接続設定をまとめて行います。Codex用ユーザーとアプリケーションパスワードの作成、Codexに貼り付ける値の表示、記事ごとのリライトメモ、ログインなしで見られるプレビューリンクと変更点の比較、予約反映、作業履歴と週のまとめ、一時停止スイッチ、記事の点検、サイト情報の書き出しを行います。
- * Version: 0.4.0
+ * Version: 0.4.1
  * Requires at least: 5.6
  * Requires PHP: 7.4
- * Author: wp-codex-rewrite
+ * Author: codex-wp-template
  * License: GPL-2.0-or-later
- * Update URI: https://github.com/hallelujah097hallelujah-design/wp-codex-rewrite
+ * Update URI: https://github.com/hallelujah097hallelujah-design/codex-wp-template
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-const CODEX_CONNECT_VERSION  = '0.4.0';
+const CODEX_CONNECT_VERSION  = '0.4.1';
 const CODEX_CONNECT_FILE     = __FILE__;
 const CODEX_CONNECT_USER     = 'codex';
 const CODEX_CONNECT_APP_NAME = 'Codex';
